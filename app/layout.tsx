@@ -1,7 +1,5 @@
 import "./globals.css";
-import { Bakbak_One } from "next/font/google";
-
-const bakbak_one = Bakbak_One({ weight: "400", subsets: ["latin"] });
+import { bakbak_one } from "./utils/fonts";
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${bakbak_one.className} bg-background w-screen`}>
+      <body
+        className={`${bakbak_one.className} font-serif bg-background w-screen overflow-x-hidden`}
+      >
         {children}
       </body>
     </html>
