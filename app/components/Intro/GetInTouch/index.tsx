@@ -14,7 +14,7 @@ export default function GetInTouch() {
         className="absolute right-52 bottom-24"
       />
       <button className="relative">
-        <div className="absolute left-0 -top-8 w-[365px] py-4 bg-background text-3xl border-dashed border-white border text-white z-20">
+        <div className="transform hover:translate-x-2 hover:translate-y-2 transition duration-500 ease-in-out absolute left-0 -top-8 w-[365px] py-4 bg-background text-3xl border-dashed border-white border text-white z-20">
           GET IN TOUCH
         </div>
         <div className="w-[365px] bg-primary h-[56px] left-[14px] absolute z-0" />
