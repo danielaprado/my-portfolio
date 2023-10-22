@@ -1,5 +1,5 @@
 import { roboto_mono } from "@/app/utils/fonts";
-import dashedArrow from "@/app/images/dash_arrow.svg";
+import dashedArrow from "@/app/images/dashed_arrow.svg";
 import Image from "next/image";
 
 export default function GetInTouch() {
