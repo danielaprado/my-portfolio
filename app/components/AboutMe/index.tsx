@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <section
       id="about-me-section"
-      className={`${poppins.className} h-screen flex justify-center items-center my-32 relative gap-10`}
+      className={`${poppins.className} h-screen flex justify-center items-center my-32 relative gap-10 max-sm:hidden`}
     >
       <hr className="absolute border-t-[2px] top-[139px] -left-[100px] z-30 w-[25%]" />
       <hr className="absolute border-t-[2px] top-[139px] -left-[50px] z-30 w-[20%] rotate-90" />
