@@ -17,7 +17,7 @@ export default function AboutMe() {
       <hr className="absolute border-t-[2px] bottom-[139px] -right-[100px] z-30 w-[25%]" />
       <hr className="absolute border-t-[2px] bottom-[139px] -right-[50px] z-30 w-[20%] rotate-90" />
 
-      <div className="absolute top-0 left-[250px]">
+      <div className="absolute top-[20px] left-[250px]">
         <p className="text-white">From PT,</p>
         <p className={`${bakbak_one.className} text-secondary text-6xl`}>
           Daniela Prado
