@@ -1,3 +1,4 @@
+import Banner from "./components/geral/Banner";
 import "./globals.css";
 import { bakbak_one } from "./utils/fonts";
 
