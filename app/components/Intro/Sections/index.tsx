@@ -1,5 +1,5 @@
 import { sections } from "@/app/data/sections";
-import cn from "classnames";
+import clsx from "clsx";
 
 export default function Sections() {
   return (
@@ -10,7 +10,7 @@ export default function Sections() {
           className="group flex flex-col items-center relative hover:cursor-pointer"
         >
           <span
-            className={cn(
+            className={clsx(
               "z-10",
               style === "fill"
                 ? "text-tertiary"

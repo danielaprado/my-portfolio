@@ -1,24 +1,21 @@
 import { roboto_mono } from "@/app/utils/fonts";
 import dashedArrow from "@/app/images/dashed_arrow.svg";
+// import copyIcon from "@/app/images/Vector.svg";
 import Image from "next/image";
+import CopyButton from "../../geral/CopyButton";
 
 export default function GetInTouch() {
   return (
     <div className="relative w-full flex items-center justify-center mt-20">
-      <p className="absolute text-white right-60 bottom-[415px] text-center text-lg">
+      <p className="absolute text-white right-[308px] bottom-[435px] text-center text-lg">
         Copy my email <br />& let&apos;s talk!
       </p>
       <Image
         src={dashedArrow}
         alt="Dashed arrow"
-        className="absolute right-52 bottom-24"
+        className="absolute right-72 bottom-[116px]"
       />
-      <button className="relative">
-        <div className="transform hover:translate-x-2 hover:translate-y-2 transition duration-500 ease-in-out absolute left-0 -top-8 w-[365px] py-4 bg-background text-3xl border-dashed border-white border text-white z-20">
-          GET IN TOUCH
-        </div>
-        <div className="w-[365px] bg-primary h-[56px] left-[14px] absolute z-0" />
-      </button>
+      <CopyButton />
       <p
         className={`${roboto_mono.className} w-[365px] text-justify text-primary/50`}
       >
