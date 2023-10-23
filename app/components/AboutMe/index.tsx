@@ -4,7 +4,8 @@ import { poppins } from "@/app/utils/fonts";
 
 export default function AboutMe() {
   return (
-    <div
+    <section
+      id="about-me-section"
       className={`${poppins.className} h-screen flex justify-center items-center my-20 relative gap-10`}
     >
       <hr className="absolute border-t-[2px] top-[139px] -left-[100px] z-30 w-[25%]" />
@@ -43,6 +44,6 @@ export default function AboutMe() {
           So, explore my personal website and find out more about me!
         </p>
       </div>
-    </div>
+    </section>
   );
 }
