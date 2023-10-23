@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Sections() {
   return (
-    <div className="flex flex-col sm:text-5xl text-xl mt-20 sm:gap-10 gap-5 items-center">
+    <div className="flex flex-col sm:text-5xl text-3xl sm:mt-20 mt-12 sm:gap-10 gap-5 items-center">
       {sections.map(({ name, style, id }) => (
         <Link key={name} href={id}>
           <div className="group flex flex-col items-center relative hover:cursor-pointer">

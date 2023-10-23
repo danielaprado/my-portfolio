@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <div className="p-24">
+      <div className="sm:px-24 px-10 py-24">
         <Intro />
         <AboutMe />
       </div>
