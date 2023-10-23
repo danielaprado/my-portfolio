@@ -1,12 +1,12 @@
 import Image from "next/image";
 import me from "@/app/images/me.png";
-import { poppins } from "@/app/utils/fonts";
+import { bakbak_one, poppins } from "@/app/utils/fonts";
 
 export default function AboutMe() {
   return (
     <section
       id="about-me-section"
-      className={`${poppins.className} h-screen flex justify-center items-center my-20 relative gap-10`}
+      className={`${poppins.className} h-screen flex justify-center items-center my-32 relative gap-10`}
     >
       <hr className="absolute border-t-[2px] top-[139px] -left-[100px] z-30 w-[25%]" />
       <hr className="absolute border-t-[2px] top-[139px] -left-[50px] z-30 w-[20%] rotate-90" />
@@ -16,6 +16,13 @@ export default function AboutMe() {
       <hr className="absolute border-t-[2px] top-[139px] -right-[50px] z-30 w-[20%] rotate-90" />
       <hr className="absolute border-t-[2px] bottom-[139px] -right-[100px] z-30 w-[25%]" />
       <hr className="absolute border-t-[2px] bottom-[139px] -right-[50px] z-30 w-[20%] rotate-90" />
+
+      <div className="absolute top-0 left-[250px]">
+        <p className="text-white">From PT,</p>
+        <p className={`${bakbak_one.className} text-secondary text-6xl`}>
+          Daniela Prado
+        </p>
+      </div>
 
       <Image src={me} alt="Daniela" className="h-[400px] w-auto border-[2px]" />
       <div className="w-1/2 text-white text-lg flex flex-col justify-center gap-8 h-[400px]">
