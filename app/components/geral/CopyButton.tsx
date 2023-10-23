@@ -11,6 +11,7 @@ export default function CopyButton() {
   useEffect(() => {
     setTimeout(() => setShowCopyIcon(false), 4000);
   }, [showCopyIcon]);
+
   return (
     <button
       className="relative"
@@ -19,7 +20,7 @@ export default function CopyButton() {
         navigator.clipboard.writeText(process.env.NEXT_PUBLIC_EMAIL ?? "");
       }}
     >
-      <div className="absolute flex justify-center gap-3 left-0 -top-8 sm:w-[365px] w-[200px] py-4 bg-background sm:text-3xl text-lg hover:border-solid border-dashed border-white border text-white z-20">
+      <div className="absolute flex justify-center items-center gap-3 left-0 -top-8 sm:w-[365px] w-[200px] py-4 bg-background sm:text-3xl text-lg hover:border-solid border-dashed border-white border text-white z-20">
         <span>{showCopyIcon ? "COPIED" : "GET IN TOUCH"}</span>
         {showCopyIcon && (
           <Image src={copyIcon} alt="Dashed copy icon" width={21} height={23} />

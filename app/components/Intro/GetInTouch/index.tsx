@@ -26,7 +26,7 @@ export default function GetInTouch() {
         touch get in touch get in touch get in touch get in touch get in touch
       </p>
       <p
-        className={`${roboto_mono.className} w-[365px] text-justify text-primary/50 sm:hidden`}
+        className={`${roboto_mono.className} w-[200px] text-justify text-primary/50 sm:hidden`}
       >
         get in touch get in touch get in touch get in touch get in touch get in
         touch get in touch get in touch get in touch get in touch get in touch
