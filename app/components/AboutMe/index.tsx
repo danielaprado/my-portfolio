@@ -6,26 +6,34 @@ export default function AboutMe() {
   return (
     <section
       id="about-me-section"
-      className={`${poppins.className} h-screen flex justify-center items-center my-32 relative gap-10 max-sm:hidden`}
+      className={`${poppins.className} sm:h-screen flex max-sm:flex-col sm:justify-center items-center sm:my-32 relative gap-10 my-32`}
     >
-      <hr className="absolute border-t-[2px] top-[139px] -left-[100px] z-30 w-[25%]" />
-      <hr className="absolute border-t-[2px] top-[139px] -left-[50px] z-30 w-[20%] rotate-90" />
-      <hr className="absolute border-t-[2px] bottom-[139px] -left-[100px] z-30 w-[25%]" />
-      <hr className="absolute border-t-[2px] bottom-[139px] -left-[50px] z-30 w-[20%] rotate-90" />
-      <hr className="absolute border-t-[2px] top-[139px] -right-[100px] z-30 w-[25%]" />
-      <hr className="absolute border-t-[2px] top-[139px] -right-[50px] z-30 w-[20%] rotate-90" />
-      <hr className="absolute border-t-[2px] bottom-[139px] -right-[100px] z-30 w-[25%]" />
-      <hr className="absolute border-t-[2px] bottom-[139px] -right-[50px] z-30 w-[20%] rotate-90" />
+      <div className="max-sm:hidden">
+        <hr className="absolute border-t-[2px] top-[139px] -left-[100px] z-30 w-[25%]" />
+        <hr className="absolute border-t-[2px] top-[139px] -left-[50px] z-30 w-[20%] rotate-90" />
+        <hr className="absolute border-t-[2px] bottom-[139px] -left-[100px] z-30 w-[25%]" />
+        <hr className="absolute border-t-[2px] bottom-[139px] -left-[50px] z-30 w-[20%] rotate-90" />
+        <hr className="absolute border-t-[2px] top-[139px] -right-[100px] z-30 w-[25%]" />
+        <hr className="absolute border-t-[2px] top-[139px] -right-[50px] z-30 w-[20%] rotate-90" />
+        <hr className="absolute border-t-[2px] bottom-[139px] -right-[100px] z-30 w-[25%]" />
+        <hr className="absolute border-t-[2px] bottom-[139px] -right-[50px] z-30 w-[20%] rotate-90" />{" "}
+      </div>
 
-      <div className="absolute top-[20px] left-[250px]">
+      <div className="sm:absolute sm:top-[20px] sm:left-[250px]">
         <p className="text-white">From PT,</p>
-        <p className={`${bakbak_one.className} text-secondary text-6xl`}>
+        <p
+          className={`${bakbak_one.className} text-secondary sm:text-6xl text-4xl`}
+        >
           Daniela Prado
         </p>
       </div>
 
-      <Image src={me} alt="Daniela" className="h-[400px] w-auto border-[2px]" />
-      <div className="w-1/2 text-white text-lg flex flex-col justify-center gap-8 h-[400px]">
+      <Image
+        src={me}
+        alt="Daniela"
+        className="sm:h-[400px] sm:w-auto border-[2px]"
+      />
+      <div className="sm:w-1/2 text-white text-lg flex flex-col justify-center gap-8 sm:h-[400px]">
         <p className="px-6">
           I&apos;m{" "}
           <span className="text-xl text-primary">frontend developer</span> a
