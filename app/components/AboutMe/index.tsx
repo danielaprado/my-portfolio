@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <section
       id="about-me-section"
-      className={`${poppins.className} sm:h-screen flex max-sm:flex-col sm:justify-center items-center sm:my-32 relative gap-10 my-32`}
+      className={`${poppins.className} sm:h-screen flex max-sm:flex-col sm:justify-center items-center my-32 relative gap-10`}
     >
       <div className="max-sm:hidden">
         <hr className="absolute border-t-[2px] top-[139px] -left-[100px] z-30 w-[25%]" />
@@ -21,11 +21,11 @@ export default function AboutMe() {
 
       <div className="sm:absolute sm:top-[20px] sm:left-[250px]">
         <p className="text-white">From PT,</p>
-        <p
+        <h2
           className={`${bakbak_one.className} text-secondary sm:text-6xl text-4xl`}
         >
           Daniela Prado
-        </p>
+        </h2>
       </div>
 
       <Image
