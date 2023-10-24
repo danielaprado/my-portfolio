@@ -5,33 +5,36 @@ import CopyButton from "../../geral/CopyButton";
 
 export default function GetInTouch() {
   return (
-    <div className="relative w-full flex items-center justify-center sm:mt-20 mt-12">
-      <p className="max-sm:hidden absolute text-white right-[308px] bottom-[435px] text-center text-lg">
-        Copy my email <br />& let&apos;s talk!
-      </p>
-      <Image
-        src={dashedArrow}
-        alt="Dashed arrow"
-        className="max-sm:hidden absolute right-72 bottom-[116px]"
-      />
+    <div className="relative w-full flex items-center justify-center md:mt-20 mt-12">
       <CopyButton />
-      <p
-        className={`${roboto_mono.className} w-[365px] text-justify text-primary/50 max-sm:hidden`}
-      >
-        get in touch get in touch get in touch get in touch get in touch get in
-        touch get in touch get in touch get in touch get in touch get in touch
-        get in touch get in touch get in touch get in touch get in touch get in
-        touch get in touch get in touch get in touch get in touch get in touch
-        get in touch get in touch get in touch get in touch get in touch get in
-        touch get in touch get in touch get in touch get in touch get in touch
-      </p>
-      <p
-        className={`${roboto_mono.className} w-[200px] text-justify text-primary/50 sm:hidden`}
-      >
-        get in touch get in touch get in touch get in touch get in touch get in
-        touch get in touch get in touch get in touch get in touch get in touch
-        get in touch
-      </p>
+      <div className="relative">
+        <p className="max-lg:hidden absolute -right-[300px] -top-56 text-white  text-center text-lg">
+          Copy my email <br />& let&apos;s talk!
+        </p>
+        <Image
+          src={dashedArrow}
+          alt="Dashed arrow"
+          className="max-lg:hidden absolute -right-80 -top-40"
+        />
+        <p
+          className={`${roboto_mono.className} w-[365px] text-justify text-primary/50 max-md:hidden`}
+        >
+          get in touch get in touch get in touch get in touch get in touch get
+          in touch get in touch get in touch get in touch get in touch get in
+          touch get in touch get in touch get in touch get in touch get in touch
+          get in touch get in touch get in touch get in touch get in touch get
+          in touch get in touch get in touch get in touch get in touch get in
+          touch get in touch get in touch get in touch get in touch get in touch
+          get in touch
+        </p>
+        <p
+          className={`${roboto_mono.className} w-[241px] text-justify text-primary/50 md:hidden`}
+        >
+          get in touch get in touch get in touch get in touch get in touch get
+          in touch get in touch get in touch get in touch get in touch get in
+          touch get in touch get in touch get in touch get in touch get in touch
+        </p>
+      </div>
     </div>
   );
 }

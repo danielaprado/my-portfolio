@@ -5,23 +5,24 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <section className="py-32" id="skills-section">
+    <section className="lg:pt-32" id="skills-section">
       <h2
         className={`${bakbak_one.className} custom-tertiary-stroke text-transparent sm:text-6xl text-4xl text-center`}
       >
         SKILLS
       </h2>
-      <div className="relative h-[732px] ">
+      <div className="relative lg:h-[732px] md:h-[632px] sm:h-[532px] max-sm:h-[350px]">
         <Image
           src={sunset}
           alt="Sunset"
-          className="absolute left-1/2 top-32 transform -translate-x-1/2 w-[1204px]"
+          className="absolute left-1/2 top-32 transform -translate-x-1/2 lg:h-[600px] md:h-[520px] sm:h-[420px] h-[239px] w-auto"
+          // width={1200}
         />
 
         <div
-          className={`${bakbak_one.className} absolute flex gap-10 left-1/2 top-[670px] items-center justify-center transform -translate-x-1/2 w-full`}
+          className={`${bakbak_one.className} absolute flex gap-10 left-1/2 lg:top-[685px] items-center justify-center transform -translate-x-1/2 w-full max-lg:my-[7%]`}
         >
-          <div className="flex items-center gap-4 text-lg">
+          <div className="flex items-center xl:gap-4 gap-2 xl:text-lg text-sm max-lg:text-white max-lg:justify-center max-lg:gap-4 max-lg:flex-wrap max-lg:w-full">
             {skills.map((skill) => (
               <p key={skill} className="relative group">
                 <span className="hover:cursor-pointer">{skill}</span>
@@ -30,7 +31,7 @@ export default function Skills() {
             ))}
           </div>
         </div>
-        <hr className="absolute bottom-0 border-t-[2px] w-screen -left-24 border-[#EDA75E]" />
+        <hr className="absolute lg:bottom-1 border-t-[2px] w-screen sm:-left-24 -left-[40px] border-[#EDA75E] max-lg:-bottom-[18px]" />
       </div>
     </section>
   );
