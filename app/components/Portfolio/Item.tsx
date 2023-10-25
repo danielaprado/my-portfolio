@@ -49,7 +49,7 @@ export default function Item({ project }: { project: PortfolioProps }) {
               aria-label="Visit Catarina Matos' behance page"
               className="text-primary hover:underline"
             >
-              Catarina Matos
+              Catarina P. Matos
             </a>
             , a very good friend of mine (go check out her stuff!). It was
             thought to be a illustration project and in the future we want to
