@@ -59,7 +59,7 @@ export const portfolio: PortfolioProps[] = [
     name: "Bathstage® Music",
     techStack: ["ReactJS", "TypeScript", "Redux"],
     description:
-      "This project was done on a freelance context. The website had the purpose of showing videos of singers sing in different bathrooms.",
+      "This project was done on a freelance context. The website had the purpose of showing videos of singers singing in different bathrooms.",
     links: [
       { label: "Website", href: "https://bathstagemusic.com" },
       {
