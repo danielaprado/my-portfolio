@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Banner from "./components/geral/Banner";
 import "./globals.css";
 import { bakbak_one } from "./utils/fonts";
@@ -18,6 +19,7 @@ export default function RootLayout({
         className={`${bakbak_one.className} font-serif bg-background w-screen overflow-x-hidden`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
