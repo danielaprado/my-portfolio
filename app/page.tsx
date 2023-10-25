@@ -7,7 +7,7 @@ import Banner from "./components/general/Banner";
 export default function Home() {
   return (
     <main>
-      <Banner />
+      {/* <Banner /> */}
       <div className="sm:px-24 px-10 py-24">
         <Intro />
         <AboutMe />
