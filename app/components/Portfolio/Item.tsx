@@ -46,6 +46,7 @@ export default function Item({ project }: { project: PortfolioProps }) {
               target="_blank"
               rel="noreferrer"
               href="https://behance.net/cpmatos"
+              aria-label="Visit Catarina Matos' behance page"
               className="text-primary hover:underline"
             >
               Catarina Matos
@@ -61,11 +62,12 @@ export default function Item({ project }: { project: PortfolioProps }) {
               key={link.label}
               className="flex items-center justify-center gap-2 pr-3"
             >
-              <Image src={linkIcon} alt={`Visit the ${link.label}`} />
+              <Image src={linkIcon} alt={link.label} />
               <a
                 target="_blank"
                 rel="noreferrer"
                 href={link.href}
+                aria-label={`Visit the ${link.label}`}
                 className="text-primary hover:underline"
               >
                 {link.label}
