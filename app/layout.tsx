@@ -1,5 +1,5 @@
 import Footer from "./components/Footer";
-import Banner from "./components/geral/Banner";
+import Banner from "./components/general/Banner";
 import "./globals.css";
 import { bakbak_one } from "./utils/fonts";
 

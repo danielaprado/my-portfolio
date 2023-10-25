@@ -1,7 +1,7 @@
 import { roboto_mono } from "@/app/utils/fonts";
 import dashedArrow from "@/app/images/dashed_arrow.svg";
 import Image from "next/image";
-import CopyButton from "../../geral/CopyButton";
+import CopyButton from "../../general/CopyButton";
 
 export default function GetInTouch() {
   return (
@@ -15,6 +15,7 @@ export default function GetInTouch() {
           src={dashedArrow}
           alt="Dashed arrow"
           className="max-lg:hidden absolute -right-80 -top-40"
+          priority
         />
         <p
           className={`${roboto_mono.className} w-[365px] text-justify text-primary/50 max-md:hidden`}
