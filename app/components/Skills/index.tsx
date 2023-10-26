@@ -2,6 +2,7 @@ import { skills } from "@/app/data/skills";
 import sunset from "@/app/images/sunset.svg";
 import { bakbak_one } from "@/app/utils/fonts";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Skills() {
   return (
@@ -24,10 +25,18 @@ export default function Skills() {
         >
           <div className="flex items-center xl:gap-4 gap-2 xl:text-lg text-sm max-lg:text-white max-lg:justify-center max-lg:gap-4 max-lg:flex-wrap max-lg:w-full">
             {skills.map((skill) => (
-              <p key={skill} className="relative group">
-                <span className="hover:cursor-pointer">{skill}</span>
-                <span className="absolute -bottom-1 left-0 w-0 h-1 bg-primary group-hover:w-full group-hover:transition-all "></span>
-              </p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`Check out more about ${skill.name}`}
+                key={skill.name}
+                href={skill.href}
+              >
+                <p className="relative group">
+                  <span className="hover:cursor-pointer">{skill.name}</span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-1 bg-primary group-hover:w-full group-hover:transition-all "></span>
+                </p>
+              </a>
             ))}
           </div>
         </div>
