@@ -51,9 +51,9 @@ export default function Item({ project }: { project: PortfolioProps }) {
             >
               Catarina P. Matos
             </a>
-            , a very good friend of mine (go check out her stuff!). It was
-            thought to be a illustration project and in the future we want to
-            have a apparel website so we can sell our designs.
+            , a very good friend of mine (go check out her stuff!). It&apos;s
+            meant to be an illustration project and in the future we want to
+            have a clothing website so we can sell our designs.
           </p>
         )}
         <div className="flex gap-3">

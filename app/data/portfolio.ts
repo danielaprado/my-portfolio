@@ -18,7 +18,7 @@ export const portfolio: PortfolioProps[] = [
     name: "This Website",
     techStack: ["NextJS", "TypeScript", "Tailwind CSS"],
     description:
-      "My personal website is where you can get to now me better. The main purpose is to have a space where I can show my likes and my personal projects. In here I've decided to use one of my favorite frontend tech stack.",
+      "My personal website is where you can get to know me better. The main purpose is to have a space where I can show my tastes and my personal projects. Here I decided to use one of my favorite frontend technologies.",
     links: [
       {
         label: "Github Repo",
@@ -41,7 +41,7 @@ export const portfolio: PortfolioProps[] = [
       "Figma",
     ],
     description:
-      "My Master Thesis. This project consists of having a website where artists can exhibit their artworks online and where they can explain and show their thinking process, in a chronological way.",
+      "My master's thesis. This project consists of a website where artists can exhibit their works of art online and where they can explain and show their thought process, chronologically.",
     links: [{ label: "Screen recording", href: `${urlDomain()}/acoa.mp4` }],
   },
   {
@@ -57,7 +57,7 @@ export const portfolio: PortfolioProps[] = [
     name: "Bathstage® Music",
     techStack: ["ReactJS", "TypeScript", "Redux"],
     description:
-      "This project was done on a freelance context. The website had the purpose of showing videos of singers singing in different bathrooms.",
+      "This project was carried out on a freelance basis. The website aimed to show videos of singers singing in different bathrooms.",
     links: [
       { label: "Website", href: "https://bathstagemusic.com" },
       {
@@ -68,7 +68,7 @@ export const portfolio: PortfolioProps[] = [
   },
   {
     name: "Twitter clone",
-    description: "In a near future. This project is a clone of Twitter.",
+    description: "In the near future. This project is a Twitter clone.",
     isWIP: true,
   },
 ];
