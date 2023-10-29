@@ -42,7 +42,7 @@ export const portfolio: PortfolioProps[] = [
     ],
     description:
       "My master's thesis. This project consists of a website where artists can exhibit their works of art online and where they can explain and show their thought process, chronologically.",
-    links: [{ label: "Screen recording", href: `${urlDomain()}/acoa.mp4` }],
+    links: [{ label: "Demo", href: `${urlDomain()}/acoa.mp4` }],
   },
   {
     name: "D'Almic",
@@ -61,7 +61,7 @@ export const portfolio: PortfolioProps[] = [
     links: [
       { label: "Website", href: "https://bathstagemusic.com" },
       {
-        label: "Screen recording",
+        label: "Demo",
         href: `${urlDomain()}/bathstage.mp4`,
       },
     ],
